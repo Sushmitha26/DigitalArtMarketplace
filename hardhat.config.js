@@ -13,10 +13,10 @@ module.exports = {
       chainId: 1337,
     },
     mumbai: {
-      url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
-      accounts: [privateKey],
-      // url: "https://rpc-mumbai.maticvigil.com",
-      // accounts: [privateKey],
+      //url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
+      //accounts: [privateKey],
+       url: "https://rpc-mumbai.maticvigil.com",
+       accounts: [privateKey],
     },
     mainnet: {
       url: `https://polygon-mainnet.infura.io/v3/${projectId}`,
