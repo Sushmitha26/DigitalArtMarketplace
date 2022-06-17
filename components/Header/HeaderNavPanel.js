@@ -29,19 +29,19 @@ const propTypes = {
 
 const navIcons = {
   [HOME]: (
-    <HomeIcon className="h-8 w-8 mr-3 text-pink-400" aria-hidden="true" />
+    <HomeIcon className="h-8 w-8 mr-3 text-blue-400" aria-hidden="true" />
   ),
   [CREATE_ITEM]: (
     <CurrencyDollarIcon
-      className="h-8 w-8 mr-3 text-pink-400"
+      className="h-8 w-8 mr-3 text-blue-400"
       aria-hidden="true"
     />
   ),
   [MY_ASSETS]: (
-    <CollectionIcon className="h-8 w-8 mr-3 text-pink-400" aria-hidden="true" />
+    <CollectionIcon className="h-8 w-8 mr-3 text-blue-400" aria-hidden="true" />
   ),
   [CREATOR_DASHBOARD]: (
-    <ViewGridIcon className="h-8 w-8 mr-3 text-pink-400" aria-hidden="true" />
+    <ViewGridIcon className="h-8 w-8 mr-3 text-blue-400" aria-hidden="true" />
   ),
 };
 
@@ -69,7 +69,7 @@ const HeaderNavPanel = ({ isNavOpen, onSetIsNavOpen, navOptions }) => {
               <button
                 key={route}
                 type="button"
-                className="flex items-center hover:text-pink-400 py-4 w-full"
+                className="flex items-center hover:text-blue-400 py-4 w-full"
                 onClick={() => handleClick(route)}
               >
                 {navIcons[route]}
@@ -81,11 +81,11 @@ const HeaderNavPanel = ({ isNavOpen, onSetIsNavOpen, navOptions }) => {
             <div className="py-4">
               <button
                 type="button"
-                className="flex items-center hover:text-pink-400"
+                className="flex items-center hover:text-blue-400"
                 onClick={() => setIsWalletPanelOpen(true)}
               >
                 <CubeTransparentIcon
-                  className="h-8 w-8 mr-3 text-pink-400"
+                  className="h-8 w-8 mr-3 text-blue-400"
                   aria-hidden="true"
                 />
                 <span className="font-bold">My wallet</span>

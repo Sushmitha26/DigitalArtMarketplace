@@ -22,7 +22,7 @@ const Header = ({ navOptions, currentRoute, isNavOpen, onSetIsNavOpen }) => {
   return (
     <nav className="fixed inset-x-0 top-0 border-b shadow-md p-6 pb-4 z-40 bg-white h-20">
       <div className="flex items-center">
-        <h1 className="text-3xl font-bold mr-4">Metaverse</h1>
+        <h1 className="text-3xl font-bold mr-4">Digital Art Marketplace</h1>
         <div className="flex flex-1 items-center ">
           <div className="hidden lg:block">
             {navOptions.map((option) => {
@@ -34,7 +34,7 @@ const Header = ({ navOptions, currentRoute, isNavOpen, onSetIsNavOpen }) => {
                     className={`p-2 font-bold ${
                       isSelected
                         ? "bg-black rounded-md text-white"
-                        : "text-pink-500"
+                        : "text-blue-500"
                     }`}
                   >
                     {label}

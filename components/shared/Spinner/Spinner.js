@@ -31,6 +31,6 @@ const Spinner = ({ size, color }) => (
 Spinner.propTypes = propTypes;
 Spinner.defaultProps = {
   size: "5",
-  color: "text-pink-500",
+  color: "text-blue-500",
 };
 export default Spinner;

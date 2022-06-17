@@ -34,7 +34,7 @@ const Button = ({
     } ${className} ${
       isDisabled
         ? "bg-gray-300 cursor-not-allowed"
-        : "bg-pink-500 hover:bg-pink-600"
+        : "bg-blue-500 hover:bg-blue-600"
     }`}
     onClick={onHandleClick}
     disabled={isDisabled}

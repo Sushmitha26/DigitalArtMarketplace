@@ -42,7 +42,7 @@ const WalletPanel = ({ isNavOpen }) => {
       value: "logout",
       action: handleWalletDisconnect,
       icon: (
-        <LogoutIcon className="h-6 w-6 mr-2 text-pink-400" aria-hidden="true" />
+        <LogoutIcon className="h-6 w-6 mr-2 text-blue-400" aria-hidden="true" />
       ),
     },
   ];
@@ -72,7 +72,7 @@ const WalletPanel = ({ isNavOpen }) => {
               options={account ? dropdownOptions : []}
               icon={
                 <UserCircleIcon
-                  className="h-12 w-12 text-pink-400 mr-2"
+                  className="h-12 w-12 text-blue-400 mr-2"
                   aria-hidden="true"
                 />
               }
