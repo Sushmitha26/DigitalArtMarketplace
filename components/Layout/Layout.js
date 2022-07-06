@@ -39,10 +39,10 @@ const Layout = ({ children }) => {
 
   const { chainId, active } = useWeb3React();
 
-  const routeTitle =
+  /*const routeTitle =
     navOptions.find((option) => option.route === route)?.label ||
     `#${query.nft || "0000"}`;
-
+  */
   return (
     /** pt-20 to match navbar height */
     <div className="min-h-screen flex flex-col overflow-x-hidden pt-20">
