@@ -21,7 +21,7 @@ const navOptions = [
   { route: CREATOR_DASHBOARD, label: "Creator dashboard" },
 ];
 
-const defaultMetaTitle = "Metaverse";
+const defaultMetaTitle = "Digital Art Marketplace";
 
 const contextClass = {
   success: "bg-green-200 text-green-600",
@@ -60,7 +60,7 @@ const Layout = ({ children }) => {
         closeOnClick
       />
       {/* meta component for browser description */}
-      <Meta title={`${defaultMetaTitle} ${routeTitle || query.nft}`} />
+      <Meta title={`${defaultMetaTitle}`} />
       {/* div tag with modal id for modal to be rendered with react createPortal */}
       <div id="modal" />
       <Header
