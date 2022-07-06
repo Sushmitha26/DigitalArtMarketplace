@@ -35,14 +35,10 @@ const contextClass = {
 const Layout = ({ children }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const { isWalletPanelOpen, setIsWalletPanelOpen } = useToggleWalletPanel();
-  const { route, query } = useRouter();
+  const { route } = useRouter();
 
   const { chainId, active } = useWeb3React();
-
-  /*const routeTitle =
-    navOptions.find((option) => option.route === route)?.label ||
-    `#${query.nft || "0000"}`;
-  */
+  
   return (
     /** pt-20 to match navbar height */
     <div className="min-h-screen flex flex-col overflow-x-hidden pt-20">
